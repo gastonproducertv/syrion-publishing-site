@@ -1,3 +1,3 @@
 # Syrion Publishing Site
 
-Sitio web de la editorial musical independiente.
+Sitio web oficial de Syrion Publishing.
