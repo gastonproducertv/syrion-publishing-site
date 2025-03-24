@@ -1,100 +1,52 @@
-
 body {
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  background-color: #000;
-  color: #fff;
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
 }
 .hero {
-  text-align: center;
-  padding: 2rem;
+    background-image: url('https://images.unsplash.com/photo-1602524205382-0a69e2b7b3c9');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-.hero h1 {
-  font-size: 3rem;
-  color: #facc15;
+.content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 3rem;
+    border-radius: 12px;
 }
-.hero p {
-  font-size: 1.2rem;
-  color: #aaa;
+h1 {
+    font-size: 3rem;
+    color: gold;
+    margin-bottom: 1rem;
 }
-.stats {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 1.5rem 0;
+p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
 }
-.stats div {
-  background: #111;
-  border-radius: 12px;
-  padding: 1rem;
-  margin: 0.5rem;
-  min-width: 100px;
-}
-.stats strong {
-  display: block;
-  font-size: 1.5rem;
-  color: #facc15;
-}
-.stats span {
-  font-size: 0.8rem;
-  color: #ccc;
+.buttons .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
 }
 .btn {
-  display: inline-block;
-  margin-top: 1rem;
-  background: #facc15;
-  color: #000;
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
+    background-color: gold;
+    color: #000;
 }
-.credits {
-  padding: 2rem;
-  text-align: center;
+.btn.secondary {
+    background-color: transparent;
+    border: 2px solid gold;
+    color: gold;
 }
-.credit-card {
-  background: #111;
-  border-radius: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1.5rem;
-  margin-top: 1rem;
-}
-.credit-card img {
-  width: 120px;
-  height: 120px;
-  border-radius: 8px;
-  object-fit: cover;
-}
-.credit-info {
-  margin-top: 1rem;
-}
-.credit-info h3 {
-  margin: 0.3rem 0;
-  color: #facc15;
-}
-.credit-info p {
-  margin: 0.2rem 0;
-  color: #ccc;
-}
-.tags {
-  display: inline-block;
-  margin: 0.3rem 0.2rem;
-  padding: 0.2rem 0.6rem;
-  background: #222;
-  border-radius: 12px;
-  font-size: 0.75rem;
-  color: #fff;
-}
-.play-btn {
-  display: inline-block;
-  margin-top: 0.6rem;
-  background: #facc15;
-  color: #000;
-  padding: 0.4rem 1rem;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
+.btn:hover {
+    opacity: 0.8;
 }
