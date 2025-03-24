@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Syrion Publishing</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/index.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Syrion Publishing</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Syrion Publishing</h1>
+      <p>Editorial musical independiente fundada por Gaston Producer. Transparencia y visión global.</p>
+      <a href="#catalogo" class="btn">Ver Catálogo</a>
+    </div>
+  </header>
+
+  <section class="section" id="servicios">
+    <h2>Servicios</h2>
+    <div class="cards">
+      <div class="card">🎵 Registro de canciones y splits</div>
+      <div class="card">💰 Regalías globales</div>
+      <div class="card">🌍 Distribución y sincronización</div>
+      <div class="card">📄 Deals personalizados</div>
+      <div class="card">⚖️ Consultoría editorial</div>
+    </div>
+  </section>
+
+  <section class="section" id="catalogo">
+    <h2>Catálogo Musical</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Éxito 1" />
+        <h3>Éxito 1</h3>
+        <button>Escuchar</button>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Éxito 2" />
+        <h3>Éxito 2</h3>
+        <button>Escuchar</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="artistas">
+    <h2>Artistas Representados</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Lírico en la Casa" />
+        <h3>Lírico en la Casa</h3>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Flow Mafia" />
+        <h3>Flow Mafia</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contacto">
+    <h2>Contáctanos</h2>
+    <form class="form">
+      <input type="text" placeholder="Nombre" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Syrion Publishing. Todos los derechos reservados.</p>
+  </footer>
+</body>
 </html>
