@@ -1,11 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import SyrionPublishingLanding from "./SyrionPublishingLanding";
+import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <SyrionPublishingLanding />
+    <App />
   </React.StrictMode>
 );
