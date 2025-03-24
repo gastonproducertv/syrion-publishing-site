@@ -1,7 +1,6 @@
 {
-  "name": "syrion-publishing-pro",
+  "name": "syrion-publishing-site",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,6 +13,6 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
-    "vite": "^4.0.0"
+    "vite": "^5.0.0"
   }
 }
