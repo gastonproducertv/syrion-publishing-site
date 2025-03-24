@@ -1,14 +1,1 @@
-body {
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  background-color: #000;
-  color: #fff;
-}
-
-h1, h2, h3 {
-  margin: 0;
-}
-
-button {
-  cursor: pointer;
-}
+body { margin: 0; padding: 0; }
