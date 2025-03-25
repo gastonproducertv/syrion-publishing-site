@@ -1,38 +1,38 @@
 
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Syrion Publishing</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <div class="hero">
-    <div class="hero-content">
+    <video autoplay muted loop playsinline class="bg-video">
+      <source src="media/bg-video.mp4" type="video/mp4"/>
+      Your browser does not support the video tag.
+    </video>
+    <div class="overlay"></div>
+    <div class="content">
+      <img src="images/team.jpg" alt="Team Syrion" class="team-photo"/>
       <h1>Syrion Publishing</h1>
-      <p class="subtitle">
-        Song Registration • Royalty Admin • Sync Licensing • Legal & Consulting • Demo Submission
-      </p>
+      <p>Song Registration • Royalty Admin • Sync Licensing • Legal & Consulting • Demo Submission</p>
       <div class="buttons">
-        <a href="#services" class="btn primary">Ver Servicios</a>
-        <a href="#demo" class="btn secondary">Enviar Demo</a>
+        <a href="#services" class="btn solid">Ver Servicios</a>
+        <a href="#demo" class="btn outline">Enviar Demo</a>
       </div>
     </div>
   </div>
-
   <section id="services" class="services">
-    <div class="service-grid">
-      <div class="service-card">Song Registration</div>
-      <div class="service-card">Royalty Administration</div>
-      <div class="service-card">Sync Licensing</div>
-      <div class="service-card">Negotiation & Deals</div>
-      <div class="service-card">Legal & Editorial Consulting</div>
-    </div>
+    <div class="service">Song Registration</div>
+    <div class="service">Royalty Administration</div>
+    <div class="service">Sync Licensing</div>
+    <div class="service">Negotiation & Deals</div>
+    <div class="service">Legal & Editorial Consulting</div>
   </section>
-
   <footer>
-    <p>&copy; 2025 Syrion Publishing. All rights reserved.</p>
+    <p>© 2025 Syrion Publishing. All rights reserved.</p>
   </footer>
 </body>
 </html>
