@@ -1,43 +1,34 @@
-
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #0a0a0a;
-  color: #fff;
+  background: #0e0e0e;
+  color: white;
 }
-
 .hero {
-  background-image: url('https://images.unsplash.com/photo-1602524205280-82c2be04ba0f');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-align: center;
-  padding: 0 20px;
+  padding: 100px 20px 60px;
+  background: linear-gradient(to bottom, #0e0e0e, #1a1a1a);
 }
-
-.hero-content {
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 40px;
-  border-radius: 16px;
-  max-width: 700px;
-}
-
 .hero h1 {
-  font-size: 3rem;
-  color: #facc15;
-  margin-bottom: 20px;
+  font-size: 3.5em;
+  color: #eacb66;
+  letter-spacing: 2px;
 }
-
-.hero p {
-  font-size: 1.1rem;
-  margin-bottom: 30px;
-  color: #e5e5e5;
+.hero h1 span {
+  font-weight: 300;
+  display: block;
+  font-size: 0.6em;
 }
-
-.buttons .btn {
+.subtitle {
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 1em;
+  color: #ccc;
+}
+.buttons {
+  margin-top: 30px;
+}
+.btn {
   text-decoration: none;
   padding: 12px 24px;
   border-radius: 8px;
@@ -45,17 +36,35 @@ body {
   margin: 0 10px;
   transition: 0.3s ease;
 }
-
-.btn.primary {
-  background-color: #facc15;
-  color: #000;
+.primary {
+  background-color: #eacb66;
+  color: black;
 }
-
-.btn.outline {
-  border: 2px solid #facc15;
-  color: #facc15;
+.secondary {
+  border: 2px solid #eacb66;
+  color: #eacb66;
 }
-
 .btn:hover {
-  opacity: 0.85;
+  opacity: 0.8;
+}
+.servicios {
+  padding: 60px 20px;
+}
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  max-width: 900px;
+  margin: 0 auto;
+}
+.card {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+  color: #eacb66;
+  font-size: 1.1em;
+  font-weight: 500;
+  box-shadow: 0 0 10px #000;
 }
