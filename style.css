@@ -1,52 +1,61 @@
+
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #0f0f0f;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #fff;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0a0a0a;
+  color: #fff;
 }
+
 .hero {
-    background-image: url('https://images.unsplash.com/photo-1602524205382-0a69e2b7b3c9');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  background-image: url('https://images.unsplash.com/photo-1602524205280-82c2be04ba0f');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
 }
-.content {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 3rem;
-    border-radius: 12px;
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  border-radius: 16px;
+  max-width: 700px;
 }
-h1 {
-    font-size: 3rem;
-    color: gold;
-    margin-bottom: 1rem;
+
+.hero h1 {
+  font-size: 3rem;
+  color: #facc15;
+  margin-bottom: 20px;
 }
-p {
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #e5e5e5;
 }
+
 .buttons .btn {
-    display: inline-block;
-    padding: 0.8rem 1.5rem;
-    margin: 0 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin: 0 10px;
+  transition: 0.3s ease;
 }
-.btn {
-    background-color: gold;
-    color: #000;
+
+.btn.primary {
+  background-color: #facc15;
+  color: #000;
 }
-.btn.secondary {
-    background-color: transparent;
-    border: 2px solid gold;
-    color: gold;
+
+.btn.outline {
+  border: 2px solid #facc15;
+  color: #facc15;
 }
+
 .btn:hover {
-    opacity: 0.8;
+  opacity: 0.85;
 }
